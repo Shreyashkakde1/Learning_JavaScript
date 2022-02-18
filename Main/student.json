@@ -1,0 +1,14 @@
+[
+    {
+        "name":"Shreyash",
+        "Surname":"Kakde",
+        "age": 19,
+        "Course":"Bca"
+    },
+    {
+        "name":"Sujal",
+        "Surname":"Kakde",
+        "age":15,
+        "Course":"8th" 
+    }
+]

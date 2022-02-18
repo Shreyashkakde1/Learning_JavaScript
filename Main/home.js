@@ -162,21 +162,21 @@
 // --------------------------------------------------------------------------------------------------
 
 
-// If else Conditionals and Switch Statement
+                                // If else Conditionals and Switch Statement
 
 
 // If else Statement
 
 
-        var days;
-        days = 2;
-        if(days<5){
-                document.write("WeekDay!!");
-        }else if( (days>5) && (days<=7)){
-                document.write("WeekEnd !!!");
-        } else{
-                document.write("Not comes under week")
-        }
+        // var days;
+        // days = 2;
+        // if(days<5){
+        //         document.write("WeekDay!!");
+        // }else if( (days>5) && (days<=7)){
+        //         document.write("WeekEnd !!!");
+        // } else{
+        //         document.write("Not comes under week")
+        // }
 
 
 
@@ -210,3 +210,30 @@ switch (day) {
 }
 
 */
+
+// --------------------------------------------------------------------------------------------------
+                // JSON Introduction
+  
+
+        // let students = `[
+        //         {
+        //             "name":"Shreyash",
+        //             "Surname":"Kakde",
+        //             "age": 19,
+        //             "Course":"Bca"
+        //         },
+        //         {
+        //             "name":"Sujal",
+        //             "Surname":"Kakde",
+        //             "age":15,
+        //             "Course":"8th" 
+        //         }
+        //     ]`
+
+        //     console.log(JSON.parse(students)[1].age);
+
+
+
+// --------------------------------------------------------------------------------------------------
+
+                        
