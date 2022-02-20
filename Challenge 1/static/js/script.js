@@ -1,3 +1,5 @@
+// ---------------------------------------------------------------------------------------
+
 // Challenge 1: Your Age in Days
 
 function ageInDays() {
@@ -16,5 +18,14 @@ function reset() {
     document.getElementById('ageInDays').remove();
 }
 
+// ---------------------------------------------------------------------------------------
 
+    // Challenge 2: Cats Genarator
 
+    function generateCat(){
+    var image = document.createElement('img');
+    var div = document.getElementById('flex-cat-gen');
+    image.src="https://media.giphy.com/media/l4KibK3JwaVo0CjDO/giphy.gif";
+    // image.src="E:\Coding\JavaScript\Challenge 1\static\images\cat.jpg";
+    div.appendChild(image);
+    }
