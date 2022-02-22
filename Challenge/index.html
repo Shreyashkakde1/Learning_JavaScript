@@ -11,7 +11,7 @@
 </head>
 
 <body>
-<!-- ------------------------------------------------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------------------------------- -->
     <div class="container-1" id="first">
         <h2>Challeng 1: Your Age in Days</h2>
 
@@ -30,17 +30,29 @@
                 </div>
             </div>
         </div>
-<!-- ------------------------------------------------------------------------------------------- -->
-        <div class="container-2" id="second">
-            <h2>Challeng 2: Cat Generator</h2>
-            <button class="btn btn-success" id="cat-generator" onclick="generateCat()">Generate Cat</button>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------- -->
+    <div class="container-2" id="second">
+        <h2>Challeng 2: Cat Generator</h2>
+        <button class="btn btn-success" id="cat-generator" onclick="generateCat()">Generate Cat</button>
 
-        
-            <div class="flex-box-container-2" id="flex-cat-gen">
-                
-            </div>
+
+        <div class="flex-box-container-2" id="flex-cat-gen">
+
         </div>
-<!-- ------------------------------------------------------------------------------------------- -->
+    </div>
+    <!-- ------------------------------------------------------------------------------------------- -->
+
+    <div class="container-3">
+        <h2>Challeng 3: Rock, Paper, Scissors</h2>
+
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img src="/Challenge/static/images/rock.jpg" alt="rock" id="rock" height="150px",width="150px" onclick="rpsGame(this)">
+            <img src="static/images/paper.png" alt="paper" id="paper" height="150px",width="150px" onclick="rpsGame(this)">
+            <img src="/Challenge/static/images/scissors.png" alt="scissors" id="scissors" height="150px",width="150px" onclick="rpsGame(this)">
+        </div>
+    </div>
+
 
         <script src="static/js/script.js"></script>
 </body>

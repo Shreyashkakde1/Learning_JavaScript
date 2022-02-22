@@ -1,12 +1,12 @@
 /* --------------------------------------------------------- */
         /*Challenge 1 Code*/
-.container-1{
+.container-1, .container-2, .container-3{
     border: 1px solid black;
     width: 75%;
     margin: 0 auto;
     text-align: center;
 }
-.flex-box-container-1{
+.flex-box-container-1, .flex-box-container-2, .flex-box-container-3{
     display: flex;
     border: 1px solid black;
     padding: 10px;
@@ -15,9 +15,7 @@
     flex-direction: row;
 }
 
-.flex-box-container-1 div{
-    padding: 10px;
-    border: 1px solid black;
+.flex-box-container-1 div{ 
     padding: 10px;
     align-items: center;
     display: flex;
@@ -35,7 +33,7 @@
              /*Challenge 2 Code*/
 
 .container-2{
-    border: 1px solid red;
+    /* border: 1px solid black; */
     width: 75%;
     margin: 0 auto;
     text-align: center;
@@ -43,16 +41,26 @@
 
 .flex-box-container-2{
     display: flex;
-    border: 1px solid blue;
+    /* border: 1px solid black; */
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .flex-box-container-2 img{
-    border: 0.1px solid black;
+    border: 1px solid black;
     margin: 10px;
     box-shadow: 0px 10px 50px rgba(0,0,0,0.7);
     height: 250px;
     width: 250px;
 
 }
+
+/* --------------------------------------------------------- */
+
+             /*Challenge 3 Code*/
+
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgb(11, 72, 240);
+}
+
+/* style flex-box-rps divs */
