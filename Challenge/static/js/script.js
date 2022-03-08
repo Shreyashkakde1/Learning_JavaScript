@@ -147,7 +147,7 @@ function buttonsRed(){
 }
 
 function buttonGreen(){
-  for(var i=0;i<all_buttons.length;i++){
+  for(var i=0;i<all_buttons.length;i++){f
     all_buttons[i].classList.remove(all_buttons[i].classList[1]);
     all_buttons[i].classList.add('btn-success');
   }
