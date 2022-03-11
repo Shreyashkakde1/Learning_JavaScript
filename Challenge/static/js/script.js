@@ -147,7 +147,7 @@ function buttonsRed(){
 }
 
 function buttonGreen(){
-  for(var i=0;i<all_buttons.length;i++){f
+  for(var i=0;i<all_buttons.length;i++){
     all_buttons[i].classList.remove(all_buttons[i].classList[1]);
     all_buttons[i].classList.add('btn-success');
   }
@@ -167,4 +167,17 @@ function randomColors(){
     all_buttons[i].classList.remove(all_buttons[i].classList[1]);
     all_buttons[i].classList.add(choices[randomNumber]);
   }
+}
+
+// Challenge 5: Blackjack Project
+
+var blackjackGame={
+  'you':{'scoreSpan':'#your-blackjack-result', 'div':'#your-box', 'score' : 0},
+  'dealer':{'scoreSpan':'#dealer-blackjack-result', 'div':'#dealer-box', 'score' : 0}
+};
+
+document.querySelector('#blackjack-hit-button').addEventListener('click',blackjackHit);
+
+function blackjackHit(){
+  
 }
