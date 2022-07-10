@@ -171,13 +171,21 @@ function randomColors(){
 
 // Challenge 5: Blackjack Project
 
-var blackjackGame={
-  'you':{'scoreSpan':'#your-blackjack-result', 'div':'#your-box', 'score' : 0},
-  'dealer':{'scoreSpan':'#dealer-blackjack-result', 'div':'#dealer-box', 'score' : 0}
+let blackjackGame = {
+  'you': {'scoreSpan':'#your-blackjack-result', 
+          'div': '#your-box', 'score': 0},
+
+  'dealer': {'scoreSpan':'#dealer-blackjack-result', 'div': '#dealer-box', 'score': 0}
 };
 
-document.querySelector('#blackjack-hit-button').addEventListener('click',blackjackHit);
+const YOU = blackjackGame['you']; 
+const DEALER = blackjackGame['dealer'];
+
+document.getElementById('blackjack-hit-button').addEventListener('click',blackjackHit);
 
 function blackjackHit(){
-  
+  // alert("You hit me");
+  var cardImage = document.createElement('img');
+  cardImage.src='https://i.ibb.co/tsr1VRB/Q.png';
+  document.getElementById(YOU['div']).appendChild(cardImage);
 }
