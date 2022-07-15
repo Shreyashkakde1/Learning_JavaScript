@@ -131,13 +131,16 @@
     const introducer = (name,shirts)=>{
         const person = {
             name : name,
-            shirts : shirts
+            shirts : shirts,
+            assets : 10000,
+            debt: 50000
         }
-
-        const intro = `Hi my name is ${person.name} and the color of my shirt is ${person.shirts}`;
+        
+        const intro = `Hi my name is ${person.name} and the color of my shirt is ${person.shirts} and my net worth is ${person.assets-person.debt}`;
 
         return intro;
     }
-
+    
     console.log(introducer("Shreyash","Gray"));
     console.log(introducer('Sujal','Kakde'));
+    
