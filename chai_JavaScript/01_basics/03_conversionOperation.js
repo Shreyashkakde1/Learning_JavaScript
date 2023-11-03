@@ -27,7 +27,7 @@ let newNumber = String(someNumber)
 
 // ******************* Operations *******************
 let value = 3;
-let negValue = -value;
+let negValue = -value; 
 // console.log(negValue);
 
 let str1 = "Hello ";
