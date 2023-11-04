@@ -24,7 +24,7 @@ const ammount = 10000000
 // console.log(Math.min(-4,3431,45,413,4134,5145,1));
 // console.log(Math.max(-4,3431,45,413,4134,5145,1));'
 
-console.log((Math.random()*10) + 1);-
+console.log((Math.random()*10) + 1);
 
 
 
