@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: Roboto;
+}
+#red {
+  background-color: red;
+}
+#yellow {
+  background-color: rgb(253, 253, 0);
+}
+#white {
+  background-color: white;
+}
+#green {
+  background-color: rgb(34, 255, 0);
+}
+
+.button {
+  display: inline-block;
+  height: 90px;
+  width: 90px;
+  border: 1px solid black;
+  /* background-color: black; */
+  margin: 5px; /* Optional: Adds some space between the boxes */
+}
+
+.container {
+  /* Styles for the parent container */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  text-align: center;
+  height: 300px; /* Just for demonstration - adjust height as needed */
+  border: 2px solid #ccc; /* Just for demonstration */
+  background-color: rgb(113, 255, 198);
+}
