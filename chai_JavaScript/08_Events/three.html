@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Shreyash Kakde</h1>
+    <button id="stop">stop</button>
+    <button id="start">start</button>
+    <p id="time"></p>
+
+    <!-- JavaScript -->
+    <script>
+      let timeSpace = document.querySelector("#time");
+      let timeout; // Declare timeout outside the event handlers
+
+      document.querySelector("#start").addEventListener("click", function () {
+        timeout = setInterval(() => {
+          let time = new Date();
+          timeSpace.innerHTML = `${time.toLocaleTimeString()}`;
+        }, 1000);
+      });
+
+      document.querySelector("#stop").addEventListener("click", function () {
+        clearInterval(timeout);
+      });
+    </script>
+  </body>
+</html>
