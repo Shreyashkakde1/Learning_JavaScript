@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    font-family: "Rubik",sans-serif;
+}
+.wrapper{
+    height: 80vmin;
+    padding: 50px 40px;
+    background-color: #15161a;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    box-shadow: 20px 20px 40px rgba(97, 63, 0, 0.4);
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+}
+p{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 35px;
+    margin: 30px 0;
+}
+
+/* Styles for the button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #3498db;
+    color: #ffffff;
+    background-color: #3498db;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    padding: 12px 24px; /* Adjust the padding for slightly larger size */
+    margin-top: 20px; /* Add margin to separate the button */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  /* Hover effect */
+  .btn:hover {
+    background-color: #2980b9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);    
+  }
+  
